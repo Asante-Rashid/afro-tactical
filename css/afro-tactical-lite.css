@@ -3526,6 +3526,10 @@ blockquote {
   text-align: center;
 }
 
+.paragraph-body.course {
+  max-width: none;
+}
+
 .subtitle {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3662,6 +3666,7 @@ blockquote {
 
 .courses {
   position: relative;
+  width: 100%;
 }
 
 .courses._100 {
@@ -4148,6 +4153,7 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   height: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -4294,6 +4300,7 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  height: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -5540,6 +5547,7 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -5568,6 +5576,7 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  height: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -5577,6 +5586,81 @@ blockquote {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+}
+
+.div-block-29 {
+  position: relative;
+  width: 100%;
+}
+
+.div-block-30 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.div-block-31 {
+  position: relative;
+}
+
+.link-block-3 {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #101010;
+  text-decoration: none;
+}
+
+.image-14 {
+  width: 20px;
+  margin-left: 5px;
+}
+
+.collection-item-7 {
+  height: 100%;
+}
+
+.text-block-7 {
+  color: #f8b833;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.div-block-32 {
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 15px 30px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #f8b833;
+}
+
+.div-block-33 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3)));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+}
+
+.collection-list-10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 @media screen and (max-width: 991px) {
@@ -5703,13 +5787,18 @@ blockquote {
   }
 
   .course-link {
-    display: inline-block;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     overflow: visible;
   }
 
   .course-image {
     overflow: visible;
     width: 100%;
+    -o-object-position: 0% 50%;
+    object-position: 0% 50%;
   }
 
   .section-footer {
@@ -5783,7 +5872,11 @@ blockquote {
   }
 
   .course-detail.gallary {
-    display: block;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto;
     min-height: 365px;
     margin-top: auto;
     padding-right: 15px;
@@ -5844,6 +5937,10 @@ blockquote {
 
   .div-block-28 {
     border-style: none;
+  }
+
+  .div-block-30 {
+    height: auto;
   }
 }
 
@@ -6426,15 +6523,26 @@ blockquote {
   grid-column-end: span 2;
 }
 
+#w-node-_87ea2270-40d4-a2ed-05a7-610e59a366a0-9f1fb14f {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 2;
+  grid-column-start: span 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: span 2;
+}
+
 #w-node-_5852a5ad-1290-295c-31b8-e487c5e86e0a-9f1fb14f {
   -ms-grid-row: span 1;
   grid-row-start: span 1;
   -ms-grid-row-span: 1;
   grid-row-end: span 1;
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
+  -ms-grid-column: span 2;
+  grid-column-start: span 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: span 2;
 }
 
 #w-node-_9d59c80f-425a-5138-1c42-6e5e5274c019-681fb151 {
@@ -6560,6 +6668,17 @@ blockquote {
 
 @media screen and (max-width: 991px) {
   #w-node-ded6cae5-c8d4-81a9-71f0-e40925cd69f3-5a1fb14b {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
+
+  #w-node-_87ea2270-40d4-a2ed-05a7-610e59a366a0-9f1fb14f {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
     -ms-grid-row-span: 1;
