@@ -3428,7 +3428,10 @@ blockquote {
 
 .section.offer {
   position: relative;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -5663,6 +5666,10 @@ blockquote {
   display: flex;
 }
 
+.cc-payment-block {
+  margin-top: 60px;
+}
+
 @media screen and (max-width: 991px) {
   .heading {
     font-size: 58px;
@@ -5670,6 +5677,10 @@ blockquote {
 
   .heading.cta {
     margin-right: 15px;
+  }
+
+  .heading.payment {
+    font-size: 40px;
   }
 
   .paragraph {
@@ -5744,6 +5755,13 @@ blockquote {
   .section.course {
     padding-top: 30px;
     padding-bottom: 30px;
+  }
+
+  .section.offer {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
   }
 
   .grid-2 {
@@ -5888,6 +5906,10 @@ blockquote {
     margin-bottom: 0px;
   }
 
+  .blog-image-wrapper {
+    height: 60vw;
+  }
+
   .text-span-2 {
     color: #f8b833;
   }
@@ -5914,6 +5936,25 @@ blockquote {
   .icon {
     display: block;
     color: #101010;
+  }
+
+  .collection-item-4 {
+    max-height: 65vw;
+    max-width: 40vw;
+  }
+
+  .div-block-17 {
+    max-height: 40vw;
+    max-width: 40vw;
+  }
+
+  .text-block-6 {
+    top: 25px;
+    font-size: 40px;
+  }
+
+  .image-12 {
+    max-width: 100%;
   }
 
   .div-block-24 {
@@ -5965,6 +6006,15 @@ blockquote {
     display: -ms-flexbox;
     display: flex;
     text-align: left;
+  }
+
+  .heading.payment.title {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .heading.payment.or {
+    display: none;
   }
 
   .button {
@@ -6025,6 +6075,15 @@ blockquote {
     padding-left: 15px;
     border-bottom: 1px solid hsla(0, 0%, 100%, 0.15);
     border-top-style: solid;
+  }
+
+  .section.offer {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .grid-2 {
@@ -6223,6 +6282,10 @@ blockquote {
     min-height: 250px;
   }
 
+  .blog-image-wrapper {
+    height: 60vw;
+  }
+
   .text-span-4 {
     color: #f8b833;
   }
@@ -6263,6 +6326,41 @@ blockquote {
     align-items: flex-start;
   }
 
+  .collection-item-4 {
+    height: 500px;
+    max-height: 80vw;
+    max-width: 45vw;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+
+  .text-block-5 {
+    font-size: 2vw;
+  }
+
+  .course-card-title {
+    font-size: 5.5vw;
+  }
+
+  .text-block-6 {
+    top: 20px;
+    font-size: 5.5vw;
+  }
+
+  .bps-list-wrapper {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .image-12 {
+    height: 80vw;
+    max-width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+
   .div-block-24 {
     display: none;
   }
@@ -6288,6 +6386,23 @@ blockquote {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+
+  .div-block-34 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -o-object-fit: fill;
+    object-fit: fill;
   }
 }
 
@@ -6317,6 +6432,10 @@ blockquote {
     display: block;
   }
 
+  .heading.payment.title {
+    font-size: 50px;
+  }
+
   .button.cta {
     width: 100%;
     text-align: center;
@@ -6342,6 +6461,10 @@ blockquote {
   .section.cta {
     padding-top: 30px;
     padding-bottom: 30px;
+  }
+
+  .section.offer {
+    display: none;
   }
 
   .benefit-block.border {
@@ -6391,6 +6514,10 @@ blockquote {
     padding-left: 15px;
   }
 
+  .blog-image-wrapper {
+    height: 60vw;
+  }
+
   .div-block-7 {
     background-position: 0px 0px, 10% 50%;
   }
@@ -6416,6 +6543,105 @@ blockquote {
 
   .form-submit {
     width: 100%;
+  }
+
+  .collection-item-4 {
+    height: 600px;
+    max-height: 160vw;
+    max-width: 90vw;
+  }
+
+  .collection-list-6 {
+    width: 100%;
+  }
+
+  .div-block-17 {
+    position: relative;
+    width: 400px;
+    max-height: 90vw;
+    max-width: 90vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+
+  .text-block-5 {
+    font-size: 16px;
+  }
+
+  .course-card-title {
+    font-size: 35px;
+  }
+
+  .course-card-title.blur {
+    font-size: 35px;
+  }
+
+  .text-block-6 {
+    position: relative;
+    left: auto;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    font-size: 35px;
+  }
+
+  .course-card-title-block {
+    height: 30px;
+  }
+
+  .bps-payment-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .bps-list-wrapper {
+    margin-bottom: 15px;
+  }
+
+  .warning {
+    font-size: 13px;
+  }
+
+  .image-12 {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .brs-payment-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .ppih-payment-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .first-rifle-payment-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .first-pistol-payment-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .div-block-20 {
@@ -6444,6 +6670,24 @@ blockquote {
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
+  }
+
+  .cc-payment-block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: visible;
+    width: 80%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 }
 
@@ -6617,6 +6861,11 @@ blockquote {
 }
 
 #w-node-_87de810a-a087-6a7f-8410-b17a8160ffd1-681fb151 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_8bc5c71d-030c-fb38-b560-2dbc3eac89a7-681fb151 {
   -ms-grid-column-align: center;
   justify-self: center;
 }
